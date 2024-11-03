@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1 {
+        @apply text-[40px] text-title font-bold font-sans leading-[48px] text-center
+    }
+
+    h3 {
+        @apply text-[18px] text-title font-bold font-sans text-center
+    }
+
+    i {
+        @apply text-[18px] text-title font-bold font-sans text-center
+    }
+
+    p {
+        @apply text-[16px] text-cmgc font-sans font-normal leading-[26px] text-center w-[600px]
+    }
+}

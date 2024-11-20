@@ -11,7 +11,7 @@ const TestimonialCard = () => {
     const star = [1, 2, 3, 4, 5]
 
     return (
-        <div className='w-[370px] h-[340px] px-[55px]'>
+        <div className='w-[370px] sm:w-full md:w-[46vw] xl:!w-[360px] h-[330px] xl:px-[35px] px-[20px] shadow-md'>
             <div className="flex gap-1 pt-[50px]">
                 {
                     star.map((el, idx) => {
@@ -23,10 +23,10 @@ const TestimonialCard = () => {
             </div>
 
             <Paragraph
-                className={`text-left w-[255px] leading-[32px] mt-[20px]`}
-                text={`I received great customer service from the specialists who helped me. I would recommend to anyone who wants quality.`} />
+                className={`text-left xl:!w-[300px] w-[255px] leading-[32px] mt-[20px] md:!w-[40vw]`}
+                text={`I received great customer service from the specialists who helped me. I would to recommend anyone who wants quality.`} />
 
-            <div className="flex items-center gap-3 mt-5">
+            <div className="flex items-center gap-3 pt-8">
                 <img src={girl} alt="" className='h-[40px] w-[40px] rounded-full' />
                 <div className="">
                     <h3 className='text-left font-semibold text-xl'>Viola Manisa</h3>

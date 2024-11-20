@@ -14,6 +14,9 @@ export default {
       fontFamily: {
         sans: ["Open Sans", "sans-serif"]
       },
+      backgroundImage: {
+        man: "url('src/assets/man.png')",
+      }
     },
   },
   plugins: [],
